@@ -172,7 +172,7 @@
             <!-- Internet -->
             <div class="network-row">
                 <div class="device-box internet-box">
-                    <div class="device-title">🌐 INTERNET</div>
+                    <div class="device-title">INTERNET</div>
                     <div class="device router">Internet Router</div>
                     <div class="ip-info">Public Network<br>203.0.113.0/24</div>
                 </div>
@@ -185,7 +185,7 @@
             <!-- External Firewall -->
             <div class="network-row">
                 <div class="device-box firewall-box">
-                    <div class="device-title">🔥 EXTERNAL FIREWALL</div>
+                    <div class="device-title">EXTERNAL FIREWALL</div>
                     <div class="device firewall">ASA 5505</div>
                     <div class="ip-info">Outside: 203.0.113.2<br>Inside: 192.168.100.1</div>
                 </div>
@@ -248,30 +248,30 @@
         </div>
 
         <div class="packet-tracer-devices">
-            <h2>📦 Packet Tracer Devices Required</h2>
+            <h2>Packet Tracer Devices Required</h2>
             <div class="device-list">
                 <div class="device-item">
-                    <strong>🔥 2x ASA 5505 Firewalls</strong><br>
+                    <strong>2x ASA 5505 Firewalls</strong><br>
                     - External Firewall (Internet → DMZ)<br>
                     - Internal Firewall (DMZ → Internal)
                 </div>
                 <div class="device-item">
-                    <strong>🔄 2x 2960 Switches</strong><br>
+                    <strong>2x 2960 Switches</strong><br>
                     - DMZ Switch (connects servers)<br>
                     - Internal Switch (connects PCs)
                 </div>
                 <div class="device-item">
-                    <strong>🌐 1x Router</strong><br>
+                    <strong>1x Router</strong><br>
                     - Internet Router (simulates ISP)<br>
                     - Connected to external firewall
                 </div>
                 <div class="device-item">
-                    <strong>🖥️ 2x Servers</strong><br>
+                    <strong>2x Servers</strong><br>
                     - Web Server (HTTP/HTTPS)<br>
                     - Email Server (SMTP/POP3)
                 </div>
                 <div class="device-item">
-                    <strong>💻 2x PCs</strong><br>
+                    <strong>2x PCs</strong><br>
                     - Internal network workstations<br>
                     - Company employee devices
                 </div>
@@ -279,7 +279,7 @@
         </div>
 
         <div class="connections-info">
-            <h2>🔗 Corrected Network Connections</h2>
+            <h2>Network Connections</h2>
             <table class="connection-table">
                 <thead>
                     <tr>
@@ -352,7 +352,7 @@
         </div>
 
         <div style="background: rgba(255, 255, 255, 0.1); border-radius: 10px; padding: 20px; margin: 20px 0;">
-            <h2>🎯 Key Differences from Original Design</h2>
+            <h2>Key Differences from Original Design</h2>
             <ul style="line-height: 1.8;">
                 <li><strong>Linear Flow:</strong> Internet → External FW → DMZ → Internal FW → Internal Network</li>
                 <li><strong>Separate Firewalls:</strong> Each firewall has distinct outside/inside interfaces</li>
